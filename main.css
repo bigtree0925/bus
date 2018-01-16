@@ -1,0 +1,39 @@
+body {
+    text-align: center;
+}
+#carpark-area {
+    margin: 0 auto;
+}
+
+table td{
+    border:1px solid grey;
+  padding:30px;
+}
+.active{
+  border:1px solid red;
+}
+
+button{
+  margin-right:10px;
+}
+
+.bus{
+    background-image: url('img/bus-east.png');
+    background-size: cover;    
+}
+
+.bus-east{
+    background-image: url('img/bus-east.png');
+}
+.bus-north{
+    background-image: url('img/bus-north.png');
+}
+.bus-south{
+    background-image: url('img/bus-south.png');
+}
+.bus-west{
+    background-image: url('img/bus-west.png');
+}
+
+
+

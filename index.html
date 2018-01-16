@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+    <meta charset="UTF-8" />
+    <title>Bus in Carpark Simulator</title>
+    <link rel="stylesheet" type="text/css" href="main.css">
+</head>
+<body>
+    <h2>Bus in Carpark Simulator</h2>
+    
+    
+    <form id="bus-form">
+    <div class="control">Command: 
+        <input type="text" id="bus-command" style="width:200px" value="place 2,4,north">
+        <input id="btn-command" type="button" value="Send" onclick="runCommand()">
+    </div>
+        
+    </form>
+    <!-- Parking area -->
+    <table id="carpark-area">
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+        <tr>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+          <td></td>
+        </tr>
+     </table>
+        Sample Command <br>
+        PLACE 1,1,North<br>
+        MOVE<br>
+        LEFT<br>
+        RIGHT<br>
+        REPORT<br>  
+  
+
+    <script type="text/javascript" src="http://code.jquery.com/jquery-2.1.1.min.js"></script> 
+    <script type="text/javascript" src="main.js"></script> 
+
+</body>
+</html>
